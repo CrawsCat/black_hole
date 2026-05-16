@@ -1,0 +1,16 @@
+{
+    "name": "cpp-project-name",
+    "version-string": "0.1.0",
+    "dependencies": [
+        "opengl",
+        "glfw3",
+        "glm",
+        "glew",
+        "glad",
+        "stb",
+        {
+            "name": "imgui",
+            "features": [ "glfw-binding", "opengl3-binding" ]
+        }
+    ]
+  }
